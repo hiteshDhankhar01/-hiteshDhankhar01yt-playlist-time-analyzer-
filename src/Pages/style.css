@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    color: rgb(21, 21, 21);
+    /* background-color: #f4f4f4; */
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+
+/* Header styles */
+.head {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #fff;
+    padding: 15px 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 1.4rem;
+    /* border: 1px solid white ; */
+    border-radius: 5px;
+    width: fit-content;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Main container styles */
+.main_container {
+    margin-top: 20px;
+}
+
+.search_container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+
+.clear_button,
+.search_button {
+   
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.clear_button {
+    background-color: #ddd;
+    border: none;
+}
+
+.search_button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+/* Results container styles */
+.results_container {
+    margin-top: 20px;
+}
+
+.results_container>div {
+    margin-bottom: 10px;
+}
+
+/* Total length styles */
+h4 {
+    margin-top: 20px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1279px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+

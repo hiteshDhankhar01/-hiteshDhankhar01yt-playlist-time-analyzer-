@@ -1,0 +1,9 @@
+key = AIzaSyBusIgNe0gP5NcqnZxfwf0ClVNDLg16MLM
+
+https://www.googleapis.com/youtube/v3/playlistItems?part=contentDetails&maxResults=50&fields=items/contentDetails/videoId,nextPageToken&key=AIzaSyBusIgNe0gP5NcqnZxfwf0ClVNDLg16MLM&playlistId=PL8p2I9GklV46Fv-UqCwj0zk_D87cQtVEZ
+
+
+?si=CQVPnxrzkCstNDZF
+
+
+https://www.googleapis.com/youtube/v3/videos?&part=contentDetails&id=u9dFHBDC2oE&key=AIzaSyBusIgNe0gP5NcqnZxfwf0ClVNDLg16MLM&fields=items/contentDetails/duration
